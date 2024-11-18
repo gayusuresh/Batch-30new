@@ -1,0 +1,11 @@
+p
+{
+    background-color: burlywood;
+    border-style: groove;
+    border-width: 10px;
+    border-color: cadetblue;
+    border-radius: 20px;
+    padding: 20px;
+    width:500px;
+    height:400px;
+}

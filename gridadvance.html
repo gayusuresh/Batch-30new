@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid
+        {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+         
+            margin:20px;
+            grid-template-rows: 1fr 1fr 1fr;
+            width:200px;
+            height:200px;
+            border: 2px solid black;
+
+        }
+        .box
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+
+        }
+        .box1
+        {
+            background-color:black;
+        }
+        .box2
+        {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="box box1"></div>
+<div class="box box2 "></div>
+<div class="box box1"></div>
+<div class="box box2"></div>
+<div class="box box1"></div>
+<div class="box box2"></div>
+<div class="box box1"></div>
+<div class="box box2"></div>
+<div class="box box1"></div>
+
+    </div>
+</body>
+</html>

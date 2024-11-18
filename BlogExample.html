@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap:10px;
+        }
+        .main {
+            position: relative;
+        }
+        div> #one{
+            position: absolute;
+            left:20px;
+            top:40px;
+            font-size:2em;
+        }
+        div >#two{
+            position: absolute;
+            left:20px;
+            top:80px;
+            font-size:1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <a  id="one"href="#">Crime</a>
+            <a  id="two" href="https://www.hindustantimes.com/india-news/gujarat-ats-busts-drug-manufacturing-unit-near-surat-3-held-101721297327025.html">Gujarat ATS busts drug manufacturing </a>
+            <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/One-of-the-accused-was-staying-on-the-42nd-floor-o_1711739684795_1721297712642.jpg" height="200" width="300">
+        </div>
+        <div class="main">
+            <a href="#">Crime</a>
+            <a href="#">Gujarat ATS busts drug manufacturing </a>
+            <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/One-of-the-accused-was-staying-on-the-42nd-floor-o_1711739684795_1721297712642.jpg" height="200" width="300">
+        </div>
+        <div class="main">
+            <a id="one" href="#">India</a>
+            <a id="two" href="#">Kharge attacks Narendra Modi over Dibrugarh Express accident: ‘Leaves no opportunity   </a>
+            <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/modi-kharge-pti_1707381875587_1721305933538.jpeg" height="200" width="300">
+        </div>
+
+
+
+    </div>
+</body>
+</html>

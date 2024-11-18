@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            background-color: aqua;
+        }
+        .two
+        {
+            background-color: brown;
+        }
+        .three
+        {
+            background-color: cadetblue;
+        }
+    /*   @media(min-width:800px)
+       {
+        div p {
+          float:left;
+          width:30%;
+          padding:10px;
+        }
+       }*/
+       @media(min-width:400px) and (max-width:700px) {
+        body{
+            background-color: chartreuse;
+        }
+       }
+       @media print{
+          body p{
+             background-color: none;
+             font-size:2em;
+          }
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis quidem reprehenderit enim dolores aspernatur perspiciatis quae ullam, sit deserunt natus corrupti porro nam! Cupiditate, similique. Doloremque deleniti illum distinctio.</p>
+        <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis quidem reprehenderit enim dolores aspernatur perspiciatis quae ullam, sit deserunt natus corrupti porro nam! Cupiditate, similique. Doloremque deleniti illum distinctio.</p>
+        <p class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis quidem reprehenderit enim dolores aspernatur perspiciatis quae ullam, sit deserunt natus corrupti porro nam! Cupiditate, similique. Doloremque deleniti illum distinctio.</p>
+
+    </div>
+</body>
+</html>
