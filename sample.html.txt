@@ -17,6 +17,7 @@
             console.log(x);
         }
         demo();
+demo();
     </script>
 </body>
 </html>
